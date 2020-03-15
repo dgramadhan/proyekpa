@@ -1,6 +1,10 @@
-// var express = require('express'),
-//     app = express(),
-//     port = process.env.PORT || 8080;
+var express = require('express'),
+    app = express(),
+    port = process.env.PORT || 8080;
+
+app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));
+app.listen(port, () => console.log(`app listening on port ${port}`))
+
 // //     bodyParser = require('body-parser'),
 // //     controller = require('./controller');
 
@@ -18,9 +22,3 @@
 
 // app.listen(port);
 // console.log('API jalan di port : ' + port);
-
-
-const express = require('express'),
-const app = express(),
-const PORT = process.env.PORT || 8080, 
-app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));app.listen(PORT, () => console.log(`app listening on port ${PORT}`))

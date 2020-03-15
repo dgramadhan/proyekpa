@@ -20,6 +20,7 @@
 // console.log('API jalan di port : ' + port);
 
 
-const express = require('express')
-const app = express()
-const PORT = process.env.PORT || 4000app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));app.listen(PORT, () => console.log(`app listening on port ${PORT}`))
+const express = require('express'),
+const app = express(),
+const PORT = process.env.PORT || 8080, 
+app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));app.listen(PORT, () => console.log(`app listening on port ${PORT}`))

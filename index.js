@@ -4,9 +4,9 @@ var express = require('express'),
 
  var path = require('path');
 
-app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));
+// app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));
 app.listen(port, () => console.log(`app listening on port ${port}`))
-app.get('/home', (req, res) => res.sendFile(path.join(__dirname, 'web_coba.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'web_coba.html')));
 
 app.use(express.static(__dirname + '/public'));
 

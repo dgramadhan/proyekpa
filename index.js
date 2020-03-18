@@ -6,7 +6,7 @@ var express = require('express'),
 
 app.get('/', (req, res) => res.send('<h2> Hello World! </h2>'));
 app.listen(port, () => console.log(`app listening on port ${port}`))
-app.get('/home', (req, res) => res.sendFile(path.join(__dirname, 'webhtml')););
+app.get('/home', (req, res) => res.sendFile(path.join(__dirname, 'web.html')););
 
 // //     bodyParser = require('body-parser'),
 // //     controller = require('./controller');

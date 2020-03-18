@@ -1,0 +1,125 @@
+/* body {
+	margin: 0;
+    font-family: calibri;
+    background-image: linear-gradient(to right,#a1ffce, #faffd1);
+}
+
+.contain {
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+.top {
+	margin: 0 auto;
+	background-image: linear-gradient(to right,#a1ffce, #faffd1);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+.navigation {
+	display: flex;
+}
+
+ul.navigation {
+	justify-items : flex-start; 
+	list-style: none;
+	margin: 0 auto;
+}
+
+ul.navigation li {
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+ul.navigation li a {
+	display: block;
+	text-decoration:none;
+	font-weight: 500;
+	color: #669999;
+	padding: 0 1em;
+	border-radius: 3px;
+	transition: .5s all;
+
+}
+
+ul.navigation li:hover {
+	color: #669999;
+	background: #fffa;
+	transition: .5s all;
+}
+
+.chart {
+    width: 50%;
+    height: 50%;
+    margin : 0 auto;
+} */
+
+/* //////// web_test */
+
+body.login {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
+}
+
+.img {
+width: 100%;
+}
+
+
+.row {
+font-family: Helvetica;
+padding-bottom: 100px;
+}
+
+
+.judul {
+font-family: sans-serif;
+font-weight: bold;
+font-size: 30px;
+}
+
+.jumbotron {
+ background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
+color: white !important;}
+
+
+.navbar {
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
+font-family: Helvetica;
+border :none !important;
+border-style: none !important;
+
+}
+
+ul.nav li:hover {
+color: #669999;
+background: #006699;
+transition: .5s all;
+}
+
+.jumbotron input, button{
+width: 300px;
+height: 50px;
+margin-bottom:  10px;
+color: black;
+}
+
+.jumbotron button {
+border-width: 4px;
+border-color: white;
+background-color: grey;
+}
+
+
+.form-login {
+background: rgba(255, 255, 255, .1);
+padding: 50px;
+}
